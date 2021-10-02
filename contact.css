@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", "cursive";
+}
+header {
+  position: sticky;
+  top: 0;
+  font-family: "Sen", sans-serif;
+  z-index: 100;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* anouncement  */
+#anouncement {
+  background-color: #2d2323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+#anouncement p {
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 10px;
+  font-family: "Sen", sans-serif;
+}
+
+#anouncement button {
+  background-color: #eb5757;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: "Sen", sans-serif;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+}
+
+#navbar::before {
+  content: "";
+  background-color: #eb5757;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+#navbar #logo {
+  margin: 3px 450px 3px 180px;
+}
+
+#navbar img {
+  height: 30px;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+#navbar ul li a {
+  display: block;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 3px 18px;
+  margin: 0px 10px;
+}
+
+#navbar ul li a:hover {
+  background-color: black;
+}
+
+#navbar .btn img {
+  height: 20px;
+}
+
+#navbar .btn {
+  background-color: black;
+  padding: 2px 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+  width: 41px;
+}
+.first {
+  /* margin-top: 9rem; */
+  padding-left: 10rem;
+  background-color: rgba(31, 30, 30, 0.93);
+  font-family: "Sen", sans-serif;
+  display: flex;
+  height: 80vh;
+  position: relative;
+  /* z-index: -1; */
+}
+.first h1 {
+  color: white;
+  padding-top: 4rem;
+  font-size: 35px;
+}
+.im {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+}
+.contact {
+  display: flex;
+  width: 800px;
+}
+.contact1 {
+  text-align: center;
+  background-color: white;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  width: 43%;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  border-radius: 5px;
+}
+.contact1 h2 {
+  margin-top: 2rem;
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}
+.contact1 button {
+  background-color: #eb5757;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-weight: bold;
+  font-family: "Sen", sans-serif;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.contact1 button:hover {
+  background-color: #2d2323;
+  transition-duration: 1s;
+}
+/* second classs  */
+.second {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 10rem;
+  display: flex;
+  font-family: "Sen", sans-serif;
+  margin-bottom: 4rem;
+  background-color: #f2f2f2;
+}
+.contact_us {
+  margin-right: 5rem;
+}
+.second h1 {
+  font-size: 30px;
+}
+.second h4 {
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+.second p {
+  padding-bottom: 5px;
+}
+.form {
+  padding-left: 4rem;
+  width: 55%;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Sen", sans-serif;
+  resize: none;
+}
+.form button {
+  background-color: #eb5757;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  font-family: "Sen", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-property: all;
+}
+.form button:hover {
+  transition-duration: 1s;
+  background-color: #2d2323;
+}
+.form h4 {
+  padding-bottom: 1rem;
+}
+footer {
+  background-color: #222;
+  padding-left: 12rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding: 4rem 10rem 4rem 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  height: 25px;
+  width: 45px;
+}
+.logo {
+  justify-content: space-between;
+}
+.last {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  align-content: center;
+  font-weight: bold;
+  font-family: "Sen", sans-serif;
+  display: flex;
+  border: 1px solid rgb(192, 186, 186);
+  cursor: pointer;
+}
+.last img {
+  padding-right: 2px;
+}
+.top {
+  text-align: center;
+  margin-top: 9rem;
+  padding-top: 12rem;
+  height: 560px;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  background: url("../bg.jpg") no-repeat center center/cover;
+  color: white;
+  font-family: "Sen", sans-serif;
+  backdrop-filter: brightness(135%);
+  z-index: 0;
+}
+.top h1 {
+  padding-bottom: 0.5rem;
+  font-size: 45px;
+  font-weight: bolder;
+  filter: brightness(100%);
+}
+.top h3 {
+  padding-bottom: 0.6rem;
+  font-size: 32px;
+}
+.top p {
+  padding-bottom: 5px;
+}
+.middle {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.middle button {
+  margin-bottom: 18px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 23px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 90%;
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 0.7px;
+  font-family: "Sen", sans-serif;
+  cursor: pointer;
+}
+.middle button:hover {
+  background-color: black;
+  transition-duration: 0.5s;
+}
