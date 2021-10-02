@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  z-index: 2;
+  background-color: #212529;
+}
+.navbar-nav {
+  display: flex;
+  /* align-items: flex-end; */
+}
+.navbar li a {
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 0.9rem;
+}
+.navbar li a:hover,
+.navbar li a:focus {
+  color: #ffc800;
+}
+nav button {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.first {
+  background: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg")
+    no-repeat center center/cover;
+  height: 48rem;
+  width: 100%;
+  padding-top: 20%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.first p {
+  font-size: 2.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  line-height: 2.25rem;
+  font-weight: 500;
+  display: block;
+}
+.first h1 {
+  font-weight: 700;
+  font-size: 4.3rem;
+  overflow: hidden;
+}
+.first button {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem 1.2rem 2.4rem;
+  font-size: 1.2rem;
+}
+.first button:hover,
+.first button:focus {
+  color: white;
+}
+.container {
+  max-width: 1240px;
+}
+.card-deck {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.services {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 6rem;
+}
+.services h1 {
+  font-weight: 700;
+}
+.services p {
+  font-style: italic;
+  font-weight: 500;
+}
+.services card {
+  padding-bottom: 1rem;
+}
+.services .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.services span {
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  padding-top: 2rem;
+  border-radius: 50%;
+  background-color: #ffc800;
+}
+.services i {
+  color: white;
+}
+.services::after > .navbar {
+  background-color: transparent;
+  color: white;
+}
+.services .card-text {
+  color: #6c757d;
+  font-weight: normal;
+}
+.port {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+}
+.port h1 {
+  font-weight: 700;
+}
+.port p {
+  font-style: italic;
+  font-weight: 500;
+}
+.port .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.port .card-text {
+  font-style: italic;
+  font-weight: 500;
+}
+.container-fluid {
+  padding-left: 11%;
+  padding-right: 11%;
+}
+.about {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+}
+.about h1 {
+  font-weight: 700;
+}
+.about p {
+  font-style: italic;
+  font-weight: 500;
+}
+.team {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+}
+.team h1 {
+  font-weight: 700;
+}
+.team .firstp {
+  font-style: italic;
+  font-weight: 500;
+}
+.team img {
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+  margin: auto;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+}
+.team .card-title {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.team .card-text {
+  color: #6c757d;
+  font-weight: 500;
+}
+.team .btn-dark {
+  background-color: #212529;
+}
+.team button {
+  height: 2.6rem;
+  width: 2.6rem;
+  border-radius: 30%;
+  transition: transform 0.5s ease-in-out;
+}
+.team button:hover {
+  transform: rotate(-360deg);
+}
+.fa-facebook {
+  color: white;
+}
+.team p {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-weight: 500;
+}
+.logo {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-around;
+  padding: 1rem 5rem 3rem 5rem;
+}
+.contact {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+  background-color: #212529;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5rem 3.5rem 5rem 3rem;
+}
+.contact h1 {
+  font-weight: 700;
+  color: white;
+}
+.contact p {
+  font-style: italic;
+  font-weight: 500;
+}
+.form {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+}
+.form1 {
+  width: 45%;
+}
+.form2 {
+  width: 45%;
+  padding-left: 0rem;
+}
+.form1 input {
+  padding-left: 1rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  outline: none;
+  border-radius: 7px;
+  border: none;
+}
+.form2 textarea {
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.contact button {
+  color: white;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem 2.1rem 1rem 2.1rem;
+  font-size: 15px;
+  border: none;
+}
+::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #b9bdc0;
+}
+.contact button:hover,
+.contact button:focus {
+  color: white;
+  box-shadow: none;
+}
+/* .rotate-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background: #000;
+  background-image: url(http://jmd.im/wp-content/uploads/2017/06/blacki_thumbnail.jpg);
+  background-size: cover;
+}
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: animate 40s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.box .pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 25.7deg)) translateZ(500px);
+  -webkit-box-reflect: below 0px
+    linear-gradient(transparent, transparent, #0004);
+}
+.box .pic img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.carousel img {
+  height: 35rem;
+  width: 71%;
+}
+.carousel-control-prev {
+  left: 8%;
+  top: 50%;
+  bottom: 50%;
+}
+.carousel-control-next {
+  right: 8%;
+  top: 50%;
+  bottom: 50%;
+}
